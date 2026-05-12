@@ -66,6 +66,37 @@
 }
 
 /* Sections */
+
+/* Value Prop */
+.valuePropGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.valuePropCard {
+  text-align: center;
+  padding: 2rem 1.5rem;
+}
+
+.valuePropIcon {
+  font-size: 2.4rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.valuePropCard h3 {
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+}
+
+.valuePropCard p {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
 .section {
   padding: 4rem 2rem;
 }

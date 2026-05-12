@@ -5,7 +5,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Microsoft SMB Suite',
-  tagline: 'Training hub for SMB partner enablement',
+  tagline: 'Everything you need to position, scope, and deploy Microsoft data security for SMB customers.',
   url: 'https://hiteshsai.github.io',
   baseUrl: '/SMB-Suite-Training-Hub/',
   favicon: 'img/favicon.svg',
@@ -83,8 +83,8 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       announcementBar: {
-        id: 'purview_promo',
-        content: '🚀 New: Purview Suite for Business Premium promotion — <a href="https://learn.microsoft.com/partner-center/announcements/2026-april#extended-promotion-on-microsoft-purview-suite-for-microsoft-365-business-premium" target="_blank">Learn more</a>',
+        id: 'welcome_orientation',
+        content: '👋 New here? Start with the <strong>4-step partner workflow</strong> below to go from discovery to deployment.',
         backgroundColor: '#106ebe',
         textColor: '#fff',
         isCloseable: true,
@@ -100,12 +100,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Docs',
-          },
-          {
-            to: '/docs/getting-started',
-            label: 'Getting Started',
-            position: 'left',
+            label: 'Resources',
           },
         ],
       },

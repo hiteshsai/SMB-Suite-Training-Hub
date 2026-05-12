@@ -4,6 +4,24 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 
+const valueProps = [
+  {
+    icon: '💬',
+    title: 'Frame the conversation',
+    description: 'Industry one-pagers and discovery prompts that help you lead with customer pain, not product features.',
+  },
+  {
+    icon: '📐',
+    title: 'Scope the engagement',
+    description: 'The Labeling Assistant and SOW Generator turn a discovery call into a ready-to-sign Statement of Work.',
+  },
+  {
+    icon: '🚀',
+    title: 'Deploy in minutes',
+    description: 'PowerShell scripts automate labels, DLP, and retention — so you spend time advising, not clicking.',
+  },
+];
+
 const tools = [
   {
     title: 'MIP SOW Generator',
@@ -60,6 +78,26 @@ function Hero() {
         </div>
       </div>
     </header>
+  );
+}
+
+function ValueProp() {
+  return (
+    <section className={styles.section}>
+      <div className={styles.container}>
+        <h2 className={styles.sectionTitle}>Why this hub?</h2>
+        <p className={styles.sectionSub}>This site gives Microsoft partners a single place to prepare, pitch, and deploy data security for SMB customers.</p>
+        <div className={styles.valuePropGrid}>
+          {valueProps.map((vp) => (
+            <div key={vp.title} className={styles.valuePropCard}>
+              <span className={styles.valuePropIcon}>{vp.icon}</span>
+              <h3>{vp.title}</h3>
+              <p>{vp.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 }
 
@@ -158,6 +196,7 @@ export default function Home() {
     <Layout title={siteConfig.title} description={siteConfig.tagline}>
       <Hero />
       <main>
+        <ValueProp />
         <Tools />
         <Industries />
         <GettingStarted />
