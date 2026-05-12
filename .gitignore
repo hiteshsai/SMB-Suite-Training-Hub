@@ -1,9 +1,9 @@
 # Dependencies
-node_modules\
+node_modules/
 
 # Docusaurus
-website\.docusaurus\
-website\build\
+website/.docusaurus/
+website/build/
 
 # Environment and local files
 .env

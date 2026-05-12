@@ -8,6 +8,7 @@ const config = {
   tagline: 'Training hub for SMB partner enablement',
   url: 'https://hiteshsai.github.io',
   baseUrl: '/SMB-Suite-Training-Hub/',
+  favicon: 'img/favicon.svg',
   organizationName: 'hiteshsai',
   projectName: 'SMB-Suite-Training-Hub',
   onBrokenLinks: 'throw',
@@ -51,13 +52,24 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  themes: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        hashed: true,
+        language: ['en'],
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+      }),
+    ],
+  ],
   presets: [
     [
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
         },
         blog: false,
@@ -70,9 +82,32 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'purview_promo',
+        content: '🚀 New: Purview Suite for Business Premium promotion — <a href="https://learn.microsoft.com/partner-center/announcements/2026-april#extended-promotion-on-microsoft-purview-suite-for-microsoft-365-business-premium" target="_blank">Learn more</a>',
+        backgroundColor: '#106ebe',
+        textColor: '#fff',
+        isCloseable: true,
+      },
       navbar: {
         title: 'SMB Suite - Training Hub',
-        items: [],
+        logo: {
+          alt: 'SMB Suite Logo',
+          src: 'img/logo.svg',
+        },
+        items: [
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Docs',
+          },
+          {
+            to: '/docs/getting-started',
+            label: 'Getting Started',
+            position: 'left',
+          },
+        ],
       },
       footer: {
         style: 'dark',
@@ -82,11 +117,15 @@ const config = {
             items: [
               {
                 label: 'Overview',
-                to: '/',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Getting Started',
+                to: '/docs/getting-started',
               },
               {
                 label: 'Partner assets',
-                to: '/Assets/Partner-Assets/asset-catalog',
+                to: '/docs/Assets/Partner-Assets/asset-catalog',
               },
             ],
           },
@@ -104,6 +143,19 @@ const config = {
               {
                 label: 'Business Premium security and compliance',
                 href: 'https://learn.microsoft.com/microsoft-365/business-premium/m365bp-security-privacy-compliance?view=o365-worldwide',
+              },
+            ],
+          },
+          {
+            title: 'Feedback',
+            items: [
+              {
+                label: 'Report an issue',
+                href: 'https://github.com/hiteshsai/SMB-Suite-Training-Hub/issues/new',
+              },
+              {
+                label: 'Suggest an improvement',
+                href: 'https://github.com/hiteshsai/SMB-Suite-Training-Hub/issues/new?labels=enhancement',
               },
             ],
           },
