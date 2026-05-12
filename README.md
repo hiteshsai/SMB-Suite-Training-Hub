@@ -2,6 +2,8 @@
 
 > Partner enablement hub for SMB security, compliance, and data protection motions across Microsoft 365 Business Premium, Microsoft Defender add-ons, and Microsoft Purview for Business Premium.
 
+**Live site:** [https://hiteshsai.github.io/SMB-Suite-Training-Hub/](https://hiteshsai.github.io/SMB-Suite-Training-Hub/)
+
 This folder is scaffolded in the same style as the Microsoft Entra Suite Training Hub: a docs-first Docusaurus site with a top-level repo structure, GitHub Pages workflow, and partner-ready content areas.
 
 ## Current focus

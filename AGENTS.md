@@ -8,7 +8,7 @@ See [README.md](README.md) for content map and [CONTRIBUTING.md](CONTRIBUTING.md
 
 ## Build and Test
 
-All commands run from the `website/` directory. Requires Node 18+.
+All commands run from the `website/` directory. Requires Node 20+.
 
 ```bash
 npm install          # install dependencies
