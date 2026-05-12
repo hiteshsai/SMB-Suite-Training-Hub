@@ -23,6 +23,24 @@ const config = {
         })(window, document, "clarity", "script", "wq3qbsq3ho");
       `,
     },
+    {
+      tagName: 'script',
+      attributes: { type: 'text/javascript' },
+      innerHTML: `
+        document.addEventListener('click', function(e) {
+          var link = e.target.closest('a[href]');
+          if (!link) return;
+          var href = link.getAttribute('href');
+          if (href && /\\.(pdf|pptx?)$/i.test(href)) {
+            var name = href.split('/').pop();
+            if (typeof clarity === 'function') {
+              clarity('event', 'download');
+              clarity('set', 'download_file', name);
+            }
+          }
+        });
+      `,
+    },
   ],
   markdown: {
     hooks: {
