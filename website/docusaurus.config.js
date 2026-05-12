@@ -41,13 +41,7 @@ const config = {
     ({
       navbar: {
         title: 'SMB Suite - Training Hub',
-        items: [
-          {
-            href: 'https://github.com/microsoft/EntraSuite-Training',
-            label: 'Reference setup',
-            position: 'right',
-          },
-        ],
+        items: [],
       },
       footer: {
         style: 'dark',
