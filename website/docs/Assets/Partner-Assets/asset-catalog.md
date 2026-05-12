@@ -29,10 +29,18 @@ Industry-specific MIP label recommendations and data protection positioning.
 
 ## Deployment guides
 
-| Asset | Description | Audience | Format | Download |
-| --- | --- | --- | --- |
+Microsoft provides official deployment guides across the full Business Premium security stack. Download them from the partner resource catalog:
 
-*Deployment guides coming soon.*
+| Area | What it covers |
+| --- | --- |
+| Data Security | Sensitivity labels, DLP, data lifecycle, information protection |
+| Device Security | Endpoint protection, attack surface reduction, device compliance |
+| Identity Protection | Conditional Access, MFA, identity threat detection |
+| Email & App Protection | Safe Attachments, Safe Links, anti-phishing policies |
+| Device Management | Intune enrollment, Autopilot, app management |
+| SaaS Security | Cloud app discovery, app governance, session controls |
+
+[Browse all deployment guides on the partner portal →](https://microsoftpartners.microsoft.com/Microsoft-Security-Partners/News-and-Events/?Topic=small+and+medium%E2%80%91sized+business+%28smb%29#resource-catalog)
 
 ## Additional resources
 

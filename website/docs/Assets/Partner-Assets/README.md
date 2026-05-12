@@ -29,7 +29,9 @@ Industry-specific MIP label recommendations and data protection positioning.
 
 ## Deployment guides
 
-*Coming soon.*
+Microsoft provides official deployment guides for Data Security, Device Security, Identity Protection, Email & App Protection, Device Management, and SaaS Security.
+
+[Browse all deployment guides on the partner portal →](https://microsoftpartners.microsoft.com/Microsoft-Security-Partners/News-and-Events/?Topic=small+and+medium%E2%80%91sized+business+%28smb%29#resource-catalog)
 
 ## Additional resources
 
