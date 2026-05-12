@@ -19,7 +19,14 @@
 .heroSubtitle {
   font-size: 1.3rem;
   opacity: 0.9;
+  margin-bottom: 1rem;
+}
+
+.heroAudience {
+  font-size: 0.95rem;
+  opacity: 0.7;
   margin-bottom: 2rem;
+  font-style: italic;
 }
 
 .heroButtons {

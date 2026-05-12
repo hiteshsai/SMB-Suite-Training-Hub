@@ -6,19 +6,19 @@ import styles from './index.module.css';
 
 const valueProps = [
   {
-    icon: '💬',
-    title: 'Frame the conversation',
-    description: 'Industry one-pagers and discovery prompts that help you lead with customer pain, not product features.',
+    icon: '�',
+    title: 'Not another pitch deck hub',
+    description: 'The partner portal has market data and GTM slides. This site picks up where that stops — with tools that actually configure customer tenants.',
   },
   {
-    icon: '📐',
-    title: 'Scope the engagement',
-    description: 'Tools that turn a discovery call into a ready-to-sign Statement of Work — across security, compliance, and data protection.',
+    icon: '🛠️',
+    title: 'Tools that do the work',
+    description: 'Generate a Statement of Work, design a label taxonomy, and deploy policies with a PowerShell script — all from one place.',
   },
   {
-    icon: '🚀',
-    title: 'Deploy in minutes',
-    description: 'Automation scripts and step-by-step guides so you spend time advising, not clicking through admin portals.',
+    icon: '📄',
+    title: 'Assets you can hand to customers',
+    description: 'Industry one-pagers, deployment guides, and security checklists ready to share — no reformatting required.',
   },
 ];
 
@@ -95,12 +95,13 @@ function Hero() {
       <div className={styles.heroInner}>
         <h1 className={styles.heroTitle}>{siteConfig.title}</h1>
         <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
+        <p className={styles.heroAudience}>Built for Microsoft CSP partners, managed service providers, and solution integrators selling Microsoft 365 Business Premium security to SMB customers.</p>
         <div className={styles.heroButtons}>
-          <Link className={styles.heroPrimary} to="/docs/intro">
-            Browse assets
+          <Link className={styles.heroPrimary} to="#getting-started">
+            Start deploying
           </Link>
-          <Link className={styles.heroSecondary} to="#getting-started">
-            Getting started →
+          <Link className={styles.heroSecondary} to="/docs/intro">
+            Browse all assets →
           </Link>
         </div>
       </div>
@@ -112,8 +113,8 @@ function ValueProp() {
   return (
     <section className={styles.section}>
       <div className={styles.container}>
-        <h2 className={styles.sectionTitle}>Why this hub?</h2>
-        <p className={styles.sectionSub}>A single place for Microsoft partners to prepare, pitch, and deploy the full SMB security and compliance stack.</p>
+        <h2 className={styles.sectionTitle}>What is this site?</h2>
+        <p className={styles.sectionSub}>A hands-on deployment toolkit for Microsoft partners. The <a href="https://microsoftpartners.microsoft.com/Microsoft-Security-Partners/Grow-SMB-Security/" target="_blank" rel="noopener noreferrer">partner portal</a> helps you understand the opportunity — this site helps you execute it.</p>
         <div className={styles.valuePropGrid}>
           {valueProps.map((vp) => (
             <div key={vp.title} className={styles.valuePropCard}>

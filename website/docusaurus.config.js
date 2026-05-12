@@ -5,7 +5,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Microsoft SMB Suite',
-  tagline: 'Partner enablement hub for Microsoft 365 Business Premium, Defender Suite, and Purview Suite — everything you need to position, scope, and deploy SMB security.',
+  tagline: 'The deployment toolkit for Microsoft SMB partners. Go from customer conversation to configured tenant \u2014 with interactive tools, automation scripts, and ready-to-use assets.',
   url: 'https://hiteshsai.github.io',
   baseUrl: '/SMB-Suite-Training-Hub/',
   favicon: 'img/favicon.svg',
