@@ -11,7 +11,7 @@ This folder is scaffolded in the same style as the Microsoft Entra Suite Trainin
 - Microsoft 365 Business Premium as the base SMB suite motion.
 - Microsoft Defender Suite for Business Premium as the security add-on motion.
 - Microsoft Purview Suite for Business Premium and Microsoft Purview Information Protection (MIP) as the initial compliance/data protection motion.
-- NPF phase-1 SMB partner assets, hosted in this repository.
+- SMB partner enablement assets, hosted in this repository.
 
 ## Local website
 
@@ -33,7 +33,7 @@ npm run build
 | --- | --- |
 | `website\docs\Licensing` | Business Premium, Defender Suite add-on, and Purview Suite partner positioning |
 | `website\docs\Purview\MIP` | Initial Microsoft Purview Information Protection training hub |
-| `website\docs\Assets\NPF-Phase-1` | Catalog and source link for the five NPF phase-1 SMB partner assets |
+| `website\docs\Assets\NPF-Phase-1` | Partner enablement asset catalog and downloads |
 | `website\docs\Partner-Guidance` | Partner conversation flow, discovery, and workshop guidance |
 | `website\docs\Scenarios` | Customer scenarios that can become POC-in-a-box modules |
 

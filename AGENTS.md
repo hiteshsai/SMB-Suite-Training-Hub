@@ -36,7 +36,7 @@ npm run clear        # clear Docusaurus cache if builds behave unexpectedly
 | Licensing | 2 | Business Premium, Defender, Purview packaging |
 | Purview | 3 | Compliance and data protection training |
 | Partner Guidance | 4 | Conversation flow and workshop guidance |
-| Assets | 5 | NPF phase-1 asset catalog and source links |
+| Assets | 5 | Partner enablement asset catalog and downloads |
 | Scenarios | 6 | Customer scenarios / POC-in-a-box modules |
 
 ### Creating a new doc page

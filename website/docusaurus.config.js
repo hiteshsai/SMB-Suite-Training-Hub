@@ -64,7 +64,7 @@ const config = {
                 to: '/Purview/MIP/features',
               },
               {
-                label: 'NPF phase-1 assets',
+                label: 'Partner assets',
                 to: '/Assets/NPF-Phase-1/asset-catalog',
               },
             ],

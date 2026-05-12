@@ -7,4 +7,4 @@ Use this structure when adding or updating partner enablement assets:
 3. Update the related asset catalog page with owner, status, audience, and source location.
 4. Run `npm run build` from `website` before submitting changes.
 
-For NPF phase-1 content, use `website\docs\Assets\NPF-Phase-1\asset-catalog.md` as the intake tracker.
+For partner asset content, use `website\docs\Assets\NPF-Phase-1\asset-catalog.md` as the intake tracker.

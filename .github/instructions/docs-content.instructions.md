@@ -12,4 +12,4 @@ description: "Conventions for writing Docusaurus markdown docs in the SMB Suite 
 - Link to Microsoft Learn docs for official product information — do not duplicate official content.
 - Use relative paths for cross-doc links: `[Business Premium](../Licensing/business-premium.md)`.
 - Keep partner-facing language: actionable, outcome-oriented, concise.
-- When referencing NPF assets, include status, audience, and source location fields per [CONTRIBUTING.md](../../CONTRIBUTING.md).
+- When referencing partner assets, include status, audience, and source location fields per [CONTRIBUTING.md](../../CONTRIBUTING.md).

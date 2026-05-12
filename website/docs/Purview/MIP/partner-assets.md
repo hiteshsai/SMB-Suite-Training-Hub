@@ -5,7 +5,7 @@ title: Partner Assets
 
 # MIP partner assets
 
-Use this page to map existing NPF phase-1 assets into a partner journey for MIP.
+Use this page to map partner assets into a partner journey for MIP.
 
 ## Recommended partner journey
 
@@ -19,7 +19,7 @@ Use this page to map existing NPF phase-1 assets into a partner journey for MIP.
 
 ## Asset source
 
-The current NPF phase-1 asset source is tracked in [NPF phase-1 SMB assets](../../Assets/NPF-Phase-1/README.md).
+The partner asset catalog is tracked in [SMB partner assets](../../Assets/NPF-Phase-1/README.md).
 
 ## Content gaps to fill next
 

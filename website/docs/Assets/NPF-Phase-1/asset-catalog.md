@@ -3,7 +3,7 @@ sidebar_position: 2
 title: Asset Catalog
 ---
 
-# NPF phase-1 asset catalog
+# Partner asset catalog
 
 Partner enablement assets for SMB Purview and MIP motions.
 
@@ -11,11 +11,13 @@ Partner enablement assets for SMB Purview and MIP motions.
 
 | Asset | Description | Audience | Format | Link |
 | --- | --- | --- | --- | --- |
-| SOW Generator | Builds a scoped MIP Statement of Work from customer environment details | Partner | Web app | [aka.ms/SOW-Generator](https://aka.ms/SOW-Generator) |
-| MIP Labeling Assistant | Interactive decision tree for the 8-label DEFEND-aligned model | Partner / Customer | Web app | [aka.ms/MIP-Labeling-Assistant](https://aka.ms/MIP-Labeling-Assistant) |
-| Deploy Scripts | PowerShell toolkit to deploy Purview best-practice baseline (labels, DLP, retention) on Business Premium tenants | Partner | PowerShell | [aka.ms/Deploy-Scripts](https://aka.ms/Deploy-Scripts) |
+| MIP SOW Generator | Helps partners configure customer-specific settings and generate a ready-to-send SOW template | Partner | Web app | [aka.ms/SOW-Generator](https://aka.ms/SOW-Generator) |
+| Guided Labeling Assistant | Guides organizations through Microsoft Purview sensitivity label setup — from identifying the right labels for your industry, to classifying specific documents, and exporting audit-ready plans, with real-world examples for staff training | Partner / Customer | Web app | [aka.ms/MIP-Labeling-Assistant](https://aka.ms/MIP-Labeling-Assistant) |
+| PowerShell Deployment Script | Automates MIP deployment in customer tenants, including sensitivity labels, DLP policies, retention, and tenant settings | Partner | PowerShell | [aka.ms/Deploy-Scripts](https://aka.ms/Deploy-Scripts) |
 
 ## Industry one-pagers
+
+Industry-specific MIP label recommendations and data protection positioning.
 
 | Asset | Industry | Audience | Format | Download |
 | --- | --- | --- | --- | --- |
@@ -36,7 +38,7 @@ Partner enablement assets for SMB Purview and MIP motions.
 | Asset | Description | Audience | Format | Download |
 | --- | --- | --- | --- | --- |
 | AI-Powered Deployment Tools for MIP | Introduction to AI-assisted MIP deployment tooling | Partner | PDF | [Download](/pdf/Intro-AI-Deployment-Tools-MIP.pdf) |
-| Quick Guide — GitHub Copilot CLI | Getting started with GitHub Copilot in the CLI | Partner | PDF | [Download](/pdf/Quick-Guide-Copilot-CLI-v2.pdf) |
+| Quick Guide — GitHub Copilot CLI | Helps partners set up Copilot CLI with the Microsoft Learn MCP Server so they can use natural language to find answers from official Microsoft docs on M365 licensing and compliance | Partner | PDF | [Download](/pdf/Quick-Guide-Copilot-CLI-v2.pdf) |
 
 ## Metadata fields
 
