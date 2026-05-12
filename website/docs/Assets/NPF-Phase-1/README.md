@@ -5,20 +5,35 @@ title: NPF Phase-1 SMB Assets
 
 # NPF phase-1 SMB assets
 
-This section tracks the five current SMB partner assets from the NPF phase-1 project.
+This section contains the SMB partner enablement assets from the NPF phase-1 project.
 
-## Source location
+## Interactive tools
 
-The current source-of-truth folder is the SharePoint FINAL ASSETS location:
+| Tool | Purpose | Link |
+| --- | --- | --- |
+| SOW Generator | Build a scoped MIP Statement of Work for customer engagements | [aka.ms/SOW-Generator](https://aka.ms/SOW-Generator) |
+| MIP Labeling Assistant | Interactive decision tree for the 8-label DEFEND-aligned model | [aka.ms/MIP-Labeling-Assistant](https://aka.ms/MIP-Labeling-Assistant) |
+| Deploy Scripts | PowerShell toolkit to deploy Purview best-practice baseline on Business Premium tenants | [aka.ms/Deploy-Scripts](https://aka.ms/Deploy-Scripts) |
 
-[Open FINAL ASSETS in SharePoint](https://microsoft-my.sharepoint.com/shared?id=%2Fteams%2FCCPCustomerCommunitiesPartner%2FShared%20Documents%2FNPF%2FNPF%20Artifacts%2FAssets%20for%20SMB%20Partners%2FFINAL%20ASSETS&listurl=https%3A%2F%2Fmicrosofteur%2Esharepoint%2Ecom%2Fteams%2FCCPCustomerCommunitiesPartner%2FShared%20Documents&weburl=%2Fteams%2FCCPCustomerCommunitiesPartner)
+## Industry one-pagers (PDF)
 
-## Publishing guidance
+| Industry | Download |
+| --- | --- |
+| Consumer Goods | [Consumer Goods One-Pager](/pdf/Consumer_Goods_SMB_Purview_One_Pager.pdf) |
+| Financial Services & Insurance | [Financial Services One-Pager](/pdf/Financial_Services_Insurance_SMB_Purview_One_Pager.pdf) |
+| Healthcare | [Healthcare One-Pager](/pdf/Healthcare_SMB_Purview_One_Pager.pdf) |
+| Manufacturing & Distribution | [Manufacturing One-Pager](/pdf/Manufacturing_Distribution_SMB_Purview_One_Pager.pdf) |
+| Professional Services | [Professional Services One-Pager](/pdf/Professional_Services_SMB_Purview_One_Pager.pdf) |
 
-For each asset, confirm:
+## Deployment guides
 
-- Final approved file name.
-- Intended audience: internal, partner, or customer-facing.
-- Whether the asset can be stored in GitHub or should remain as a SharePoint link.
-- Owner and refresh cadence.
-- Related training page in this hub.
+| Resource | Download |
+| --- | --- |
+| Data Security Deployment Guide for Small Business | [Download (PPTX)](/pdf/Data-Security-Deployment-Guide-SMB.pptx) |
+
+## Additional resources (PDF)
+
+| Resource | Download |
+| --- | --- |
+| Intro to AI-Powered Deployment Tools for MIP | [AI Deployment Tools Guide](/pdf/Intro-AI-Deployment-Tools-MIP.pdf) |
+| Quick Guide — GitHub Copilot CLI | [Copilot CLI Guide](/pdf/Quick-Guide-Copilot-CLI-v2.pdf) |

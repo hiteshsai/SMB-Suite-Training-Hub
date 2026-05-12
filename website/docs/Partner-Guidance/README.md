@@ -26,3 +26,10 @@ Use this conversation flow for SMB partner enablement.
 ## Partner call-to-action
 
 Convert discovery into a short workshop: confirm sensitive data scenarios, show MIP capabilities, and define an initial label and DLP policy path.
+
+## Key resources
+
+- [Data Security Deployment Guide for Small Business](/pdf/Data-Security-Deployment-Guide-SMB.pptx) — end-to-end deployment guide covering Business Premium security, compliance, and data protection.
+- [SOW Generator](https://aka.ms/SOW-Generator) — build a scoped MIP Statement of Work.
+- [MIP Labeling Assistant](https://aka.ms/MIP-Labeling-Assistant) — interactive decision tree for label design.
+- [Full asset catalog](../Assets/NPF-Phase-1/asset-catalog.md) — all partner enablement assets.
