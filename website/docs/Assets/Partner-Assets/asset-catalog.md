@@ -32,6 +32,7 @@ Industry-specific MIP label recommendations and data protection positioning.
 | Asset | Description | Audience | Format | Download |
 | --- | --- | --- | --- | --- |
 | Data Security Deployment Guide for Small Business | End-to-end data security deployment guide covering Business Premium security, compliance, and data protection | Partner | PPTX | [Download](/pdf/Data-Security-Deployment-Guide-SMB.pptx) |
+| SMB Security Guide | Partner enablement guide for positioning, scoping, and deploying Microsoft 365 Business Premium security — covers conversation framework, label taxonomy, DLP, Defender Suite, and Purview Suite | Partner | DOCX | [Download](/pdf/SMB-Security-Guide.docx) |
 
 ## Additional resources
 
