@@ -29,9 +29,7 @@ Industry-specific MIP label recommendations and data protection positioning.
 
 ## Deployment guides
 
-| Resource | Download |
-| --- | --- |
-| Data Security Deployment Guide for Small Business | [Download (PPTX)](/pdf/Data-Security-Deployment-Guide-SMB.pptx) |
+*Coming soon.*
 
 ## Additional resources
 

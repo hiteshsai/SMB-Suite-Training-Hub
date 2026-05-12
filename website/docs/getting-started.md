@@ -63,5 +63,4 @@ Use `-WhatIf` to preview changes without applying them.
 
 ## What's next
 
-- Review the [Data Security Deployment Guide](/pdf/Data-Security-Deployment-Guide-SMB.pptx) for the full Business Premium deployment story.
 - Check the [full asset catalog](./Assets/Partner-Assets/asset-catalog.md) for all available resources.
