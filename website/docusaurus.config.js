@@ -6,9 +6,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Microsoft SMB Suite',
   tagline: 'Training hub for SMB partner enablement',
-  url: 'https://microsoft.github.io',
+  url: 'https://hiteshsai.github.io',
   baseUrl: '/SMB-Suite-Training-Hub/',
-  organizationName: 'microsoft',
+  organizationName: 'hiteshsai',
   projectName: 'SMB-Suite-Training-Hub',
   onBrokenLinks: 'throw',
   markdown: {
