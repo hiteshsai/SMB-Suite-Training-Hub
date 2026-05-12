@@ -115,8 +115,8 @@ const config = {
                 to: '/docs/intro',
               },
               {
-                label: 'Getting Started',
-                to: '/docs/getting-started',
+                label: 'Data Security',
+                to: '/docs/data-security/getting-started',
               },
               {
                 label: 'Partner assets',

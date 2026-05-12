@@ -1,11 +1,11 @@
 ---
-sidebar_position: 3
-title: Purview Suite — Deploy
+sidebar_position: 2
+title: Getting Started with MIP
 ---
 
-# Purview Suite for Business Premium
+# Getting Started with MIP
 
-Everything you need to take a customer from discovery to a fully configured Purview deployment.
+Everything you need to take a customer from discovery to a fully configured Microsoft Information Protection deployment.
 
 ## Interactive tools
 
@@ -29,7 +29,7 @@ MIP label recommendations tailored to your customer's vertical. Download and sha
 | Manufacturing & Distribution | [Manufacturing One-Pager](/pdf/Manufacturing_Distribution_SMB_Purview_One_Pager.pdf) |
 | Professional Services | [Professional Services One-Pager](/pdf/Professional_Services_SMB_Purview_One_Pager.pdf) |
 
-## Getting started — four steps
+## Four steps from discovery to deployment
 
 ### Step 1 — Pick your industry
 
@@ -62,6 +62,13 @@ Run the [PowerShell Deployment Script](https://aka.ms/Deploy-Scripts) to configu
 - Retention policies
 - Optional AI governance controls
 
+**Prerequisites:**
+
+- PowerShell 7+
+- Exchange Online Management module
+- Microsoft Online SharePoint module
+- Tenant admin credentials (or GDAP partner delegation)
+
 **Quick start:**
 
 ```powershell
@@ -70,10 +77,7 @@ Run the [PowerShell Deployment Script](https://aka.ms/Deploy-Scripts) to configu
 
 Use `-WhatIf` to preview changes without applying them.
 
-## Additional resources
+## What's next
 
-| Resource | Format | Download |
-| --- | --- | --- |
-| Quick Guide — GitHub Copilot CLI | PDF | [Download](/pdf/Quick-Guide-Copilot-CLI-v2.pdf) |
-
-See the [full asset catalog](./Assets/Partner-Assets/asset-catalog.md) for all available resources.
+- Continue to [Getting Started with DLP](./dlp.md) to layer data loss prevention policies on top of your labels.
+- See the [full asset catalog](../Assets/Partner-Assets/asset-catalog.md) for all available resources.

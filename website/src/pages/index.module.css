@@ -111,6 +111,24 @@
   gap: 1.5rem;
 }
 
+/* Pillar Grid - 5 cards */
+.pillarGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.pillarLink {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.pillarLink:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
 .suiteCard {
   display: flex;
   flex-direction: column;
@@ -175,6 +193,7 @@
   font-size: 0.93rem;
   line-height: 1.5;
   margin-bottom: 0.75rem;
+  flex: 1;
 }
 
 .suiteHighlights {

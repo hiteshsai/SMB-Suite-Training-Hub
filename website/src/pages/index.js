@@ -22,30 +22,41 @@ const valueProps = [
   },
 ];
 
-const suites = [
+const pillars = [
   {
-    title: 'Microsoft 365 Business Premium',
-    icon: '\uD83D\uDEE1\uFE0F',
+    title: 'Identity & Access Protection',
+    icon: '\uD83D\uDD11',
     status: 'coming-soon',
-    description: 'The all-in-one productivity and security foundation for SMBs \u2014 identity, device management, threat protection, and information protection in one license.',
-    highlights: ['Azure AD P1 & Conditional Access', 'Intune MDM/MAM & Autopilot', 'Defender for Business', 'Basic sensitivity labels & DLP'],
-    cta: null,
+    description: 'Secure how users sign in and access resources \u2014 Conditional Access, MFA, and identity threat detection.',
+    link: null,
   },
   {
-    title: 'Purview Suite for Business Premium',
+    title: 'Endpoint Protection',
+    icon: '\uD83D\uDCBB',
+    status: 'coming-soon',
+    description: 'Protect devices with Defender for Business, attack surface reduction, and device compliance policies.',
+    link: null,
+  },
+  {
+    title: 'Email & Apps Protection',
+    icon: '\uD83D\uDCE7',
+    status: 'coming-soon',
+    description: 'Stop phishing and malware with Safe Attachments, Safe Links, and anti-phishing policies.',
+    link: null,
+  },
+  {
+    title: 'Data Security',
     icon: '\uD83D\uDD12',
     status: 'available',
-    description: 'Advanced data security and compliance capabilities that extend Business Premium \u2014 auto-labeling, endpoint DLP, eDiscovery, insider risk, and more.',
-    highlights: ['Sensitivity labels & auto-labeling', 'Advanced DLP (endpoint + Teams)', 'Data lifecycle & retention', 'eDiscovery Premium'],
-    cta: { label: 'Deploy Purview \u2192', link: '/docs/purview-suite' },
+    description: 'Classify, label, and protect sensitive data with MIP and DLP \u2014 across email, SharePoint, OneDrive, Teams, and endpoints.',
+    link: '/docs/data-security/getting-started',
   },
   {
-    title: 'Defender Suite for Business Premium',
-    icon: '\u2694\uFE0F',
+    title: 'Cloud Apps Security',
+    icon: '\u2601\uFE0F',
     status: 'coming-soon',
-    description: 'Deeper threat protection with automated investigation, attack simulation, cloud app governance, and identity threat detection.',
-    highlights: ['Defender for Office 365 P2', 'Defender for Identity', 'Defender for Cloud Apps', 'Automated investigation & response'],
-    cta: null,
+    description: 'Discover shadow IT, govern SaaS apps, and control sessions with Defender for Cloud Apps.',
+    link: null,
   },
 ];
 
@@ -58,8 +69,8 @@ function Hero() {
         <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
         <p className={styles.heroAudience}>Built for Microsoft CSP partners, managed service providers, and solution integrators selling Microsoft 365 Business Premium security to SMB customers.</p>
         <div className={styles.heroButtons}>
-          <Link className={styles.heroPrimary} to="/docs/purview-suite">
-            Start with Purview
+          <Link className={styles.heroPrimary} to="/docs/data-security/getting-started">
+            Start with Data Security
           </Link>
           <Link className={styles.heroSecondary} to="/docs/intro">
             Browse all resources &rarr;
@@ -90,38 +101,45 @@ function ValueProp() {
   );
 }
 
-function Suites() {
+function Pillars() {
   return (
-    <section className={styles.sectionAlt} id="suites">
+    <section className={styles.sectionAlt} id="pillars">
       <div className={styles.container}>
-        <h2 className={styles.sectionTitle}>Product suites</h2>
-        <p className={styles.sectionSub}>Deployment content organized by suite. Start with what&apos;s available &mdash; more is on the way.</p>
-        <div className={styles.suiteGrid}>
-          {suites.map((suite) => (
-            <div key={suite.title} className={`${styles.suiteCard} ${suite.status === 'coming-soon' ? styles.suiteComingSoon : ''}`}>
-              <div className={styles.suiteHeader}>
-                <span className={styles.suiteIcon}>{suite.icon}</span>
-                {suite.status === 'coming-soon' && (
-                  <span className={styles.suiteBadge}>Coming soon</span>
+        <h2 className={styles.sectionTitle}>Security pillars</h2>
+        <p className={styles.sectionSub}>Deployment content organized by capability. Start with what&apos;s available &mdash; more pillars are on the way.</p>
+        <div className={styles.pillarGrid}>
+          {pillars.map((pillar) => {
+            const inner = (
+              <>
+                <div className={styles.suiteHeader}>
+                  <span className={styles.suiteIcon}>{pillar.icon}</span>
+                  {pillar.status === 'coming-soon' && (
+                    <span className={styles.suiteBadge}>Coming soon</span>
+                  )}
+                  {pillar.status === 'available' && (
+                    <span className={styles.suiteBadgeAvailable}>Available now</span>
+                  )}
+                </div>
+                <h3>{pillar.title}</h3>
+                <p>{pillar.description}</p>
+                {pillar.link ? (
+                  <span className={styles.suiteCta}>Get started &rarr;</span>
+                ) : (
+                  <span className={styles.suiteCtaDisabled}>Assets coming soon</span>
                 )}
-                {suite.status === 'available' && (
-                  <span className={styles.suiteBadgeAvailable}>Available now</span>
-                )}
+              </>
+            );
+
+            return pillar.link ? (
+              <Link key={pillar.title} className={`${styles.suiteCard} ${styles.pillarLink}`} to={pillar.link}>
+                {inner}
+              </Link>
+            ) : (
+              <div key={pillar.title} className={`${styles.suiteCard} ${styles.suiteComingSoon}`}>
+                {inner}
               </div>
-              <h3>{suite.title}</h3>
-              <p>{suite.description}</p>
-              <ul className={styles.suiteHighlights}>
-                {suite.highlights.map((h) => (
-                  <li key={h}>{h}</li>
-                ))}
-              </ul>
-              {suite.cta ? (
-                <Link className={styles.suiteCta} to={suite.cta.link}>{suite.cta.label}</Link>
-              ) : (
-                <span className={styles.suiteCtaDisabled}>Assets coming soon</span>
-              )}
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
@@ -135,7 +153,7 @@ export default function Home() {
       <Hero />
       <main>
         <ValueProp />
-        <Suites />
+        <Pillars />
       </main>
     </Layout>
   );

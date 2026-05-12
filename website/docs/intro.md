@@ -11,6 +11,7 @@ title: Overview
 
 Use this hub to position, demonstrate, and deploy SMB security and compliance value:
 
+- [Data Security — Getting Started](./data-security/getting-started.md): Deploy MIP labels, DLP policies, and data protection.
 - [Partner assets](./Assets/Partner-Assets/asset-catalog.md): Partner enablement asset catalog.
 
 ## Conversation flow
