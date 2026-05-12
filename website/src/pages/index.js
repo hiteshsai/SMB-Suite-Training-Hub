@@ -13,12 +13,39 @@ const valueProps = [
   {
     icon: '📐',
     title: 'Scope the engagement',
-    description: 'The Labeling Assistant and SOW Generator turn a discovery call into a ready-to-sign Statement of Work.',
+    description: 'Tools that turn a discovery call into a ready-to-sign Statement of Work — across security, compliance, and data protection.',
   },
   {
     icon: '🚀',
     title: 'Deploy in minutes',
-    description: 'PowerShell scripts automate labels, DLP, and retention — so you spend time advising, not clicking.',
+    description: 'Automation scripts and step-by-step guides so you spend time advising, not clicking through admin portals.',
+  },
+];
+
+const suites = [
+  {
+    title: 'Microsoft 365 Business Premium',
+    icon: '🛡️',
+    status: 'coming-soon',
+    description: 'The all-in-one productivity and security foundation for SMBs — identity, device management, threat protection, and information protection in one license.',
+    highlights: ['Azure AD P1 & Conditional Access', 'Intune MDM/MAM & Autopilot', 'Defender for Business', 'Basic sensitivity labels & DLP'],
+    cta: null,
+  },
+  {
+    title: 'Purview Suite for Business Premium',
+    icon: '🔒',
+    status: 'available',
+    description: 'Advanced data security and compliance capabilities that extend Business Premium — auto-labeling, endpoint DLP, eDiscovery, insider risk, and more.',
+    highlights: ['Sensitivity labels & auto-labeling', 'Advanced DLP (endpoint + Teams)', 'Data lifecycle & retention', 'eDiscovery Premium'],
+    cta: { label: 'Explore Purview assets →', link: '/docs/Assets/Partner-Assets/asset-catalog' },
+  },
+  {
+    title: 'Defender Suite for Business Premium',
+    icon: '⚔️',
+    status: 'coming-soon',
+    description: 'Deeper threat protection with automated investigation, attack simulation, cloud app governance, and identity threat detection.',
+    highlights: ['Defender for Office 365 P2', 'Defender for Identity', 'Defender for Cloud Apps', 'Automated investigation & response'],
+    cta: null,
   },
 ];
 
@@ -86,13 +113,51 @@ function ValueProp() {
     <section className={styles.section}>
       <div className={styles.container}>
         <h2 className={styles.sectionTitle}>Why this hub?</h2>
-        <p className={styles.sectionSub}>This site gives Microsoft partners a single place to prepare, pitch, and deploy data security for SMB customers.</p>
+        <p className={styles.sectionSub}>A single place for Microsoft partners to prepare, pitch, and deploy the full SMB security and compliance stack.</p>
         <div className={styles.valuePropGrid}>
           {valueProps.map((vp) => (
             <div key={vp.title} className={styles.valuePropCard}>
               <span className={styles.valuePropIcon}>{vp.icon}</span>
               <h3>{vp.title}</h3>
               <p>{vp.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Suites() {
+  return (
+    <section className={styles.sectionAlt} id="suites">
+      <div className={styles.container}>
+        <h2 className={styles.sectionTitle}>Product suites</h2>
+        <p className={styles.sectionSub}>Training content and partner assets organized by suite. Start with what's available — more is on the way.</p>
+        <div className={styles.suiteGrid}>
+          {suites.map((suite) => (
+            <div key={suite.title} className={`${styles.suiteCard} ${suite.status === 'coming-soon' ? styles.suiteComingSoon : ''}`}>
+              <div className={styles.suiteHeader}>
+                <span className={styles.suiteIcon}>{suite.icon}</span>
+                {suite.status === 'coming-soon' && (
+                  <span className={styles.suiteBadge}>Coming soon</span>
+                )}
+                {suite.status === 'available' && (
+                  <span className={styles.suiteBadgeAvailable}>Available now</span>
+                )}
+              </div>
+              <h3>{suite.title}</h3>
+              <p>{suite.description}</p>
+              <ul className={styles.suiteHighlights}>
+                {suite.highlights.map((h) => (
+                  <li key={h}>{h}</li>
+                ))}
+              </ul>
+              {suite.cta ? (
+                <Link className={styles.suiteCta} to={suite.cta.link}>{suite.cta.label}</Link>
+              ) : (
+                <span className={styles.suiteCtaDisabled}>Assets coming soon</span>
+              )}
             </div>
           ))}
         </div>
@@ -117,8 +182,8 @@ function Tools() {
   return (
     <section className={styles.section}>
       <div className={styles.container}>
-        <h2 className={styles.sectionTitle}>Interactive tools</h2>
-        <p className={styles.sectionSub}>Launch directly — no install required.</p>
+        <h2 className={styles.sectionTitle}>Purview deployment tools</h2>
+        <p className={styles.sectionSub}>Interactive tools for the Purview Suite motion — launch directly, no install required.</p>
         <div className={styles.toolGrid}>
           {tools.map((tool) => (
             <ToolCard key={tool.title} {...tool} />
@@ -174,6 +239,11 @@ function AdditionalResources() {
       <div className={styles.container}>
         <h2 className={styles.sectionTitle}>Additional resources</h2>
         <div className={styles.resourceGrid}>
+          <a className={styles.resourceCard} href="/pdf/SMB-Security-Guide.docx">
+            <strong>SMB Security Guide</strong>
+            <span>Comprehensive partner guide covering conversation framework, label taxonomy, DLP, Defender Suite, and Purview Suite positioning.</span>
+            <span className={styles.toolLaunch}>Download DOCX ↓</span>
+          </a>
           <a className={styles.resourceCard} href="/pdf/Data-Security-Deployment-Guide-SMB.pptx">
             <strong>Data Security Deployment Guide</strong>
             <span>End-to-end deployment guide for Business Premium security, compliance, and data protection.</span>
@@ -197,6 +267,7 @@ export default function Home() {
       <Hero />
       <main>
         <ValueProp />
+        <Suites />
         <Tools />
         <Industries />
         <GettingStarted />

@@ -97,6 +97,118 @@
   margin: 0;
 }
 
+/* Suite Cards */
+.suiteGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.suiteCard {
+  display: flex;
+  flex-direction: column;
+  padding: 1.75rem;
+  border-radius: 10px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  background: var(--ifm-background-color);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.suiteCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.suiteComingSoon {
+  opacity: 0.75;
+}
+
+.suiteHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.suiteIcon {
+  font-size: 2rem;
+}
+
+.suiteBadge {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  border-radius: 20px;
+  background: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.suiteBadgeAvailable {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  border-radius: 20px;
+  background: #106ebe;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.suiteCard h3 {
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+}
+
+.suiteCard p {
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.93rem;
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+}
+
+.suiteHighlights {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+  flex: 1;
+}
+
+.suiteHighlights li {
+  font-size: 0.88rem;
+  color: var(--ifm-color-emphasis-600);
+  padding: 0.2rem 0;
+}
+
+.suiteHighlights li::before {
+  content: '✓ ';
+  color: var(--ifm-color-primary);
+  font-weight: 700;
+}
+
+.suiteCta {
+  display: inline-block;
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.suiteCta:hover {
+  text-decoration: underline;
+}
+
+.suiteCtaDisabled {
+  display: inline-block;
+  color: var(--ifm-color-emphasis-500);
+  font-weight: 500;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
 .section {
   padding: 4rem 2rem;
 }
