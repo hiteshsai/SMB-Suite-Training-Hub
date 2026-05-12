@@ -54,10 +54,6 @@ const config = {
                 to: '/',
               },
               {
-                label: 'Purview MIP',
-                to: '/Purview/MIP/features',
-              },
-              {
                 label: 'Partner assets',
                 to: '/Assets/Partner-Assets/asset-catalog',
               },

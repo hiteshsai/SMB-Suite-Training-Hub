@@ -37,15 +37,4 @@ Industry-specific MIP label recommendations and data protection positioning.
 
 | Asset | Description | Audience | Format | Download |
 | --- | --- | --- | --- | --- |
-| AI-Powered Deployment Tools for MIP | Introduction to AI-assisted MIP deployment tooling | Partner | PDF | [Download](/pdf/Intro-AI-Deployment-Tools-MIP.pdf) |
 | Quick Guide — GitHub Copilot CLI | Helps partners set up Copilot CLI with the Microsoft Learn MCP Server so they can use natural language to find answers from official Microsoft docs on M365 licensing and compliance | Partner | PDF | [Download](/pdf/Quick-Guide-Copilot-CLI-v2.pdf) |
-
-## Metadata fields
-
-Each asset should track:
-
-- Owner
-- Audience
-- Format
-- Last reviewed date
-- Related Microsoft Learn links
