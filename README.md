@@ -33,7 +33,7 @@ npm run build
 | --- | --- |
 | `website\docs\Licensing` | Business Premium, Defender Suite add-on, and Purview Suite partner positioning |
 | `website\docs\Purview\MIP` | Initial Microsoft Purview Information Protection training hub |
-| `website\docs\Assets\NPF-Phase-1` | Partner enablement asset catalog and downloads |
+| `website\docs\Assets\Partner-Assets` | Partner enablement asset catalog and downloads |
 | `website\docs\Partner-Guidance` | Partner conversation flow, discovery, and workshop guidance |
 | `website\docs\Scenarios` | Customer scenarios that can become POC-in-a-box modules |
 

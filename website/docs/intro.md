@@ -15,7 +15,7 @@ Use this hub to help partners position, demonstrate, and deploy SMB security and
 - [Licensing and packaging](./Licensing/business-premium.md): Business Premium base, Defender Suite add-on, and Purview Suite motion.
 - [Purview overview](./Purview/overview.md): Compliance and data protection story for SMB customers.
 - [MIP features](./Purview/MIP/features.md): Sensitivity labels, DLP, and email encryption for Microsoft 365 Business Premium.
-- [Partner assets](./Assets/NPF-Phase-1/asset-catalog.md): Partner enablement asset catalog.
+- [Partner assets](./Assets/Partner-Assets/asset-catalog.md): Partner enablement asset catalog.
 - [Partner guidance](./Partner-Guidance/README.md): Conversation flow and workshop guidance.
 
 ## Initial scope

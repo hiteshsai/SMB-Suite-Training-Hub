@@ -59,7 +59,7 @@ const config = {
               },
               {
                 label: 'Partner assets',
-                to: '/Assets/NPF-Phase-1/asset-catalog',
+                to: '/Assets/Partner-Assets/asset-catalog',
               },
             ],
           },

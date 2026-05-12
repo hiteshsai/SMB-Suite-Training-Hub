@@ -19,7 +19,7 @@ Use this page to map partner assets into a partner journey for MIP.
 
 ## Asset source
 
-The partner asset catalog is tracked in [SMB partner assets](../../Assets/NPF-Phase-1/README.md).
+The partner asset catalog is tracked in [SMB partner assets](../../Assets/Partner-Assets/README.md).
 
 ## Content gaps to fill next
 

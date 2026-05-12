@@ -32,4 +32,4 @@ Convert discovery into a short workshop: confirm sensitive data scenarios, show 
 - [Data Security Deployment Guide for Small Business](/pdf/Data-Security-Deployment-Guide-SMB.pptx) — end-to-end deployment guide covering Business Premium security, compliance, and data protection.
 - [MIP SOW Generator](https://aka.ms/SOW-Generator) — helps partners configure customer-specific settings and generate a ready-to-send SOW template.
 - [Guided Labeling Assistant](https://aka.ms/MIP-Labeling-Assistant) — guides organizations through sensitivity label setup with industry-specific examples.
-- [Full asset catalog](../Assets/NPF-Phase-1/asset-catalog.md) — all partner enablement assets.
+- [Full asset catalog](../Assets/Partner-Assets/asset-catalog.md) — all partner enablement assets.
