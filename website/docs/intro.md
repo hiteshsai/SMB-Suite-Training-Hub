@@ -5,22 +5,26 @@ title: Overview
 
 # Welcome to the Microsoft SMB Suite Training Hub
 
-> A partner enablement hub for SMB customers using Microsoft 365 Business Premium, Microsoft Defender add-ons, and Microsoft Purview capabilities for Business Premium.
+> A partner enablement hub for deploying Microsoft 365 Business Premium security capabilities to SMB customers — organized by the problem you're solving, not the SKU you're selling.
 
 ## Start here
 
-Use this hub to position, demonstrate, and deploy SMB security and compliance value:
+Deployment content is organized into five security-capability pillars. Start with what's available:
 
-- [Data Security — Getting Started](./data-security/getting-started.md): Deploy MIP labels, DLP policies, and data protection.
-- [Partner assets](./Assets/Partner-Assets/asset-catalog.md): Partner enablement asset catalog.
+| Pillar | Status | Description |
+| ------ | ------ | ----------- |
+| [Data Security](./data-security/getting-started.md) | **Available** | Classify, label, and protect sensitive data with MIP and DLP |
+| Identity & Access | Coming soon | Conditional Access, MFA, identity threat detection |
+| Endpoint Protection | Coming soon | Defender for Business, attack surface reduction, device compliance |
+| Email & Apps Protection | Coming soon | Safe Attachments, Safe Links, anti-phishing policies |
+| Cloud Apps Security | Coming soon | Shadow IT discovery, SaaS governance, session control |
 
 ## Conversation flow
 
 1. Anchor on Microsoft 365 Business Premium as the SMB productivity and security foundation.
 2. Ask where sensitive customer, employee, financial, or regulated data is stored and shared.
-3. Introduce Purview/MIP as a simple way to classify, label, protect, and govern sensitive information.
-4. Show how Defender Suite for Business Premium deepens threat protection.
-5. Position Purview Suite for Business Premium when the customer needs advanced compliance or data security depth.
+3. Map the answer to a pillar — most SMB conversations start with **Data Security** (MIP/DLP).
+4. Show how additional pillars (Identity, Endpoint, Email, Cloud Apps) deepen the security posture.
 
 ## Discovery prompts
 
@@ -30,19 +34,11 @@ Use this hub to position, demonstrate, and deploy SMB security and compliance va
 - Are there contractual, industry, or regulatory requirements?
 - Who owns compliance and security decisions?
 
-## Call to action
-
-Convert discovery into a short workshop: confirm sensitive data scenarios, show MIP capabilities, and define an initial label and DLP policy path.
-
 ## Key resources
 
-- [MIP SOW Generator](https://aka.ms/SOW-Generator) — helps partners configure customer-specific settings and generate a ready-to-send SOW template.
-- [Guided Labeling Assistant](https://aka.ms/MIP-Labeling-Assistant) — guides organizations through sensitivity label setup with industry-specific examples.
+- [MIP SOW Generator](https://aka.ms/SOW-Generator) — configure customer-specific settings and generate a ready-to-send SOW template.
+- [Guided Labeling Assistant](https://aka.ms/MIP-Labeling-Assistant) — walk through sensitivity label setup with industry-specific examples.
 - [Full asset catalog](./Assets/Partner-Assets/asset-catalog.md) — all partner enablement assets.
-
-## Initial scope
-
-The first content slice focuses on Purview, specifically Microsoft Purview Information Protection (MIP), because it maps directly to partner needs around protecting customer data, simplifying compliance conversations, and showing Business Premium value.
 
 ## Source references
 

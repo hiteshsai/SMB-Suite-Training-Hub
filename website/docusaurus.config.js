@@ -84,7 +84,7 @@ const config = {
     ({
       announcementBar: {
         id: 'welcome_orientation',
-        content: '👋 New here? Start with the <strong>4-step partner workflow</strong> below to go from discovery to deployment.',
+        content: '\uD83D\uDC4B New here? Start with <a href="/SMB-Suite-Training-Hub/docs/data-security/getting-started"><strong>Data Security</strong></a> \u2014 our first fully built pillar.',
         backgroundColor: '#106ebe',
         textColor: '#fff',
         isCloseable: true,
