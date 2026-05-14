@@ -5,7 +5,7 @@ title: Overview
 
 # Welcome to the Microsoft SMB Suite Training Hub
 
-> A partner enablement hub for deploying Microsoft 365 Business Premium security capabilities to SMB customers — organized by the problem you're solving, not the SKU you're selling.
+> A partner enablement hub for deploying Microsoft 365 Business Premium security capabilities (Defender Suite + Purview Suite) to SMB customers — organized by the problem you're solving, not the SKU you're selling.
 
 ## Start here
 
@@ -13,26 +13,11 @@ Deployment content is organized into five security-capability pillars. Start wit
 
 | Pillar | Status | Description |
 | ------ | ------ | ----------- |
-| [Data Security](./data-security/getting-started.md) | **Available** | Classify, label, and protect sensitive data with MIP and DLP |
+| [Data Security](./data-security/getting-started.md) | **Available** | Classify, label, and protect sensitive data |
 | Identity & Access | Coming soon | Conditional Access, MFA, identity threat detection |
 | Endpoint Protection | Coming soon | Defender for Business, attack surface reduction, device compliance |
 | Email & Apps Protection | Coming soon | Safe Attachments, Safe Links, anti-phishing policies |
 | Cloud Apps Security | Coming soon | Shadow IT discovery, SaaS governance, session control |
-
-## Conversation flow
-
-1. Anchor on Microsoft 365 Business Premium as the SMB productivity and security foundation.
-2. Ask where sensitive customer, employee, financial, or regulated data is stored and shared.
-3. Map the answer to a pillar — most SMB conversations start with **Data Security** (MIP/DLP).
-4. Show how additional pillars (Identity, Endpoint, Email, Cloud Apps) deepen the security posture.
-
-## Discovery prompts
-
-- What sensitive data does the customer handle most often?
-- Where does that data live: email, SharePoint, OneDrive, Teams, local devices, or line-of-business apps?
-- How do users share files externally today?
-- Are there contractual, industry, or regulatory requirements?
-- Who owns compliance and security decisions?
 
 ## Key resources
 
