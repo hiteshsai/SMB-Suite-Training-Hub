@@ -2,12 +2,14 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
+const siteBaseUrl = '/SMB-Suite-Training-Hub/';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Microsoft SMB Suite',
   tagline: 'The deployment toolkit for Microsoft SMB partners. Go from customer conversation to configured tenant \u2014 with interactive tools, automation scripts, and ready-to-use assets.',
   url: 'https://hiteshsai.github.io',
-  baseUrl: '/SMB-Suite-Training-Hub/',
+  baseUrl: siteBaseUrl,
   favicon: 'img/favicon.svg',
   organizationName: 'hiteshsai',
   projectName: 'SMB-Suite-Training-Hub',
@@ -59,6 +61,7 @@ const config = {
       ({
         hashed: true,
         language: ['en'],
+        indexBlog: false,
         highlightSearchTermsOnTargetPage: true,
         explicitSearchResultPath: true,
       }),
@@ -84,7 +87,7 @@ const config = {
     ({
       announcementBar: {
         id: 'welcome_orientation',
-        content: '\uD83D\uDC4B New here? Start with <a href="/SMB-Suite-Training-Hub/docs/data-security/getting-started"><strong>Data Security</strong></a> \u2014 our first fully built pillar.',
+        content: `\uD83D\uDC4B New here? Start with <a href="${siteBaseUrl}docs/data-security/getting-started"><strong>Data Security</strong></a> \u2014 our first fully built pillar.`,
         backgroundColor: '#106ebe',
         textColor: '#fff',
         isCloseable: true,

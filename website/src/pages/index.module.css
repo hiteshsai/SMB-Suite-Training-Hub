@@ -54,6 +54,11 @@
   text-decoration: none;
 }
 
+.heroPrimary:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+
 .heroSecondary {
   background: transparent;
   color: #fff;
@@ -70,6 +75,11 @@
   border-color: #fff;
   color: #fff;
   text-decoration: none;
+}
+
+.heroSecondary:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
 }
 
 /* Sections */
@@ -120,6 +130,12 @@
 .pillarLink:hover {
   text-decoration: none;
   color: inherit;
+}
+
+.pillarLink:focus-visible {
+  outline: 3px solid var(--ifm-color-primary);
+  outline-offset: 3px;
+  border-radius: 10px;
 }
 
 .suiteCard {
@@ -238,6 +254,36 @@
   color: var(--ifm-color-emphasis-600);
   margin-bottom: 2.5rem;
   font-size: 1.1rem;
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 3rem 1rem;
+  }
+
+  .heroTitle {
+    font-size: 2.1rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.1rem;
+  }
+
+  .heroPrimary,
+  .heroSecondary {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .section,
+  .sectionAlt {
+    padding: 3rem 1rem;
+  }
+
+  .valuePropGrid,
+  .pillarGrid {
+    grid-template-columns: 1fr;
+  }
 }
 
 
