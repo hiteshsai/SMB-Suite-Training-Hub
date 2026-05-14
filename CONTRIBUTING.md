@@ -3,8 +3,8 @@
 Use this structure when adding or updating partner enablement assets:
 
 1. Add reusable training content under `website\docs`.
-2. Place source decks, PDFs, or companion files under `website\docs\Assets` only after confirming they are approved for the intended audience.
-3. Update the related asset catalog page with owner, status, audience, and source location.
+2. Place approved PDFs and companion downloads under `website\static\pdf` (referenced from docs via `/pdf/<file>.pdf`).
+3. Register the asset in the catalog table on `website\docs\data-security\getting-started.md` with audience, format, and source link.
 4. Run `npm run build` from `website` before submitting changes.
 
-For partner asset content, use `website\docs\Assets\Partner-Assets\asset-catalog.md` as the intake tracker.
+The partner asset catalog lives inside the Data Security pillar at `website\docs\data-security\getting-started.md`.

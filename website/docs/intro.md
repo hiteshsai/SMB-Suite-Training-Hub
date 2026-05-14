@@ -19,11 +19,23 @@ Deployment content is organized into five security-capability pillars. Start wit
 | Email & Apps Protection | Coming soon | Safe Attachments, Safe Links, anti-phishing policies |
 | Cloud Apps Security | Coming soon | Shadow IT discovery, SaaS governance, session control |
 
+## What's here vs. Microsoft Learn
+
+Microsoft Learn documents what each feature does and how to configure it. This site picks up where that stops — with partner-specific tools and content for deploying Business Premium, Defender Suite, and Purview Suite into customer tenants.
+
+| | Microsoft Learn | This Training Hub |
+| --- | --- | --- |
+| **Audience** | IT admins configuring their own tenant | Partners deploying for SMB customers |
+| **Business Premium** | Feature docs and setup steps | Opinionated deployment playbooks — what to deploy first and why |
+| **Defender Suite** | Product capabilities and admin config | Pillar-based guides organized by the customer problem, not the SKU |
+| **Purview Suite** | Compliance feature reference | Interactive tools — SOW Generator, Labeling Assistant, PowerShell automation |
+| **Assets** | None | Industry one-pagers, customer-ready checklists, downloadable PDFs |
+
 ## Key resources
 
 - [MIP SOW Generator](https://aka.ms/SOW-Generator) — configure customer-specific settings and generate a ready-to-send SOW template.
 - [Guided Labeling Assistant](https://aka.ms/MIP-Labeling-Assistant) — walk through sensitivity label setup with industry-specific examples.
-- [Full asset catalog](./Assets/Partner-Assets/asset-catalog.md) — all partner enablement assets.
+- [Data Security — Getting Started](./data-security/getting-started.md) — full partner asset catalog and deployment guides.
 
 ## Source references
 

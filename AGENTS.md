@@ -36,8 +36,9 @@ npm run clear        # clear Docusaurus cache if builds behave unexpectedly
 | Licensing | 2 | Business Premium, Defender, Purview packaging |
 | Purview | 3 | Compliance and data protection training |
 | Partner Guidance | 4 | Conversation flow and workshop guidance |
-| Assets | 5 | Partner enablement asset catalog and downloads |
-| Scenarios | 6 | Customer scenarios / POC-in-a-box modules |
+| Scenarios | 5 | Customer scenarios / POC-in-a-box modules |
+
+The partner asset catalog (interactive tools, industry one-pagers, deployment guides) lives inside the **Data Security** pillar at `website/docs/data-security/getting-started.md`.
 
 ### Creating a new doc page
 

@@ -123,7 +123,7 @@ const config = {
               },
               {
                 label: 'Partner assets',
-                to: '/docs/Assets/Partner-Assets/asset-catalog',
+                to: '/docs/data-security/getting-started',
               },
             ],
           },

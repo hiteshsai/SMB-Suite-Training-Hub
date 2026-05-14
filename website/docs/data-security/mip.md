@@ -80,4 +80,4 @@ Use `-WhatIf` to preview changes without applying them.
 ## What's next
 
 - Continue to [Getting Started with DLP](./dlp.md) to layer data loss prevention policies on top of your labels.
-- See the [full asset catalog](../Assets/Partner-Assets/asset-catalog.md) for all available resources.
+- See the [Data Security overview](./getting-started.md) for the full partner asset catalog.
