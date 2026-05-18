@@ -5,9 +5,43 @@ title: Overview
 
 # Welcome to the Microsoft SMB Suite Training Hub
 
-> A partner enablement hub for deploying Microsoft 365 Business Premium security capabilities (Defender Suite + Purview Suite) to SMB customers — organized by the problem you're solving, not the SKU you're selling.
+*Your one-stop shop for SMB-focused deployment assets — built on the best practice deployment for Microsoft 365 Business Premium, Defender Suite, and Purview Suite.*
 
-## Start here
+## What you'll find here
+
+This hub brings together the tools, playbooks, and customer-ready materials partners need to accelerate SMB security deployments.
+
+We are actively building new assets and will continue to add to this hub as content is ready for partner consumption.
+
+## What's inside
+
+**Prescriptive deployment playbooks** — step-by-step guides built on Microsoft's best practice recommendations, telling you what to deploy first and why.
+
+**Interactive partner tools** — SOW generators, labeling assistants, and PowerShell automation to speed up customer engagements.
+
+**Pillar-based organization** — content organized by the security problem you're solving (protect data, secure identity, defend endpoints), not by SKU.
+
+## Start with the SMB Security Guide
+
+A guide for securing small and medium business environments with Microsoft 365 and Microsoft Defender. Covers identity, device, email, and data protection in a phased, prioritized approach — giving partners and IT admins a clear foundation to build on. Start here, then use the SMB Suite training assets to accelerate and scale your deployment.
+
+- **[https://aka.ms/smbsecurityguide](https://aka.ms/smbsecurityguide)**
+
+## Step-by-step deployment guides
+
+### Business Premium + Defender Suite
+
+- [Identity Protection Deployment Guide for Small Business](https://microsoftpartners.microsoft.com/Microsoft-Security-Partners/News-and-Events/?Topic=small+and+medium%E2%80%91sized+business+%28smb%29#resource-catalog)
+- [Device Management Deployment Guide for Small Business](https://microsoftpartners.microsoft.com/Microsoft-Security-Partners/News-and-Events/?Topic=small+and+medium%E2%80%91sized+business+%28smb%29#resource-catalog)
+- [Device Security Deployment Guide for Small Business](https://microsoftpartners.microsoft.com/Microsoft-Security-Partners/News-and-Events/?Topic=small+and+medium%E2%80%91sized+business+%28smb%29#resource-catalog)
+- [Email & App + Collaboration Deployment Guide for Small Business](https://microsoftpartners.microsoft.com/Microsoft-Security-Partners/News-and-Events/?Topic=small+and+medium%E2%80%91sized+business+%28smb%29#resource-catalog)
+- [SaaS Security Deployment Guide for Small Business](https://microsoftpartners.microsoft.com/Microsoft-Security-Partners/News-and-Events/?Topic=small+and+medium%E2%80%91sized+business+%28smb%29#resource-catalog)
+
+### Business Premium + Purview Suite
+
+- [Data Security Deployment Guide for Small Business](https://microsoftpartners.microsoft.com/Microsoft-Security-Partners/News-and-Events/?Topic=small+and+medium%E2%80%91sized+business+%28smb%29#resource-catalog)
+
+## Security pillars
 
 Deployment content is organized into five security-capability pillars. Start with what's available:
 
@@ -19,23 +53,18 @@ Deployment content is organized into five security-capability pillars. Start wit
 | Email & Apps Protection | Coming soon | Safe Attachments, Safe Links, anti-phishing policies |
 | Cloud Apps Security | Coming soon | Shadow IT discovery, SaaS governance, session control |
 
-## What's here vs. Microsoft Learn
+## What's new
 
-Microsoft Learn documents what each feature does and how to configure it. This site picks up where that stops — with partner-specific tools and content for deploying Business Premium, Defender Suite, and Purview Suite into customer tenants.
+*Update this section as new assets are published.*
 
-| | Microsoft Learn | This Training Hub |
+| Date | Asset | Pillar |
 | --- | --- | --- |
-| **Audience** | IT admins configuring their own tenant | Partners deploying for SMB customers |
-| **Business Premium** | Feature docs and setup steps | Opinionated deployment playbooks — what to deploy first and why |
-| **Defender Suite** | Product capabilities and admin config | Pillar-based guides organized by the customer problem, not the SKU |
-| **Purview Suite** | Compliance feature reference | Interactive tools — SOW Generator, Labeling Assistant, PowerShell automation |
-| **Assets** | None | Industry one-pagers, customer-ready checklists, downloadable PDFs |
+| Coming soon | — | — |
 
-## Key resources
+## Partner resources
 
-- [MIP SOW Generator](https://aka.ms/SOW-Generator) — configure customer-specific settings and generate a ready-to-send SOW template.
-- [Guided Labeling Assistant](https://aka.ms/MIP-Labeling-Assistant) — walk through sensitivity label setup with industry-specific examples.
-- [Data Security — Getting Started](./data-security/getting-started.md) — full partner asset catalog and deployment guides.
+- [Grow your SMB security practice](https://microsoftpartners.microsoft.com/Microsoft-Security-Partners/Grow-SMB-Security/) — SMB Security Partner Hub
+- [Microsoft Multi-tenant Management resource guide](https://aka.ms/intunemultitenant)
 
 ## Source references
 

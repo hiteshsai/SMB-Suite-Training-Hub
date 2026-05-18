@@ -1,21 +1,27 @@
 ---
 sidebar_position: 2
-title: Getting Started with MIP
+title: Deploy MIP
 ---
 
-# Getting Started with MIP
+# Deploy Microsoft Information Protection (MIP)
 
-Everything you need to take a customer from discovery to a fully configured Microsoft Information Protection deployment.
+Microsoft Information Protection (MIP) is the foundation of data security in Microsoft 365 — enabling organizations to **classify and protect data at scale using sensitivity labels**.
 
-## Interactive tools
+In a Secure by Default deployment model, protection is applied **automatically**, not manually. Labels are configured once and **applied by default across files, emails, and containers**, reducing reliance on end-user decisions and minimizing oversharing risk. [Learn more about Secure by Default →](https://learn.microsoft.com/purview/deploymentmodels/depmod-secure-by-default-intro)
 
-Launch directly — no install required.
+This approach shifts the model from *"when should users protect data?"* to *"when should protection be adjusted or removed?"* — accelerating adoption while maintaining strong governance.
 
-| Tool | What it does | Launch |
-| --- | --- | --- |
-| MIP SOW Generator | Configure customer-specific settings and generate a ready-to-send Statement of Work | [Launch](https://aka.ms/SOW-Generator) |
-| Guided Labeling Assistant | Walk through sensitivity label setup with industry-specific examples and export an audit-ready plan | [Launch](https://aka.ms/MIP-Labeling-Assistant) |
-| PowerShell Deployment Script | Automate MIP deployment — sensitivity labels, DLP policies, retention, and tenant settings | [Launch](https://aka.ms/Deploy-Scripts) |
+Use the toolkit assets in this section to design, configure, and deploy a labeling strategy that establishes a **baseline of protection across your Microsoft 365 environment**.
+
+## MIP deployment toolkit
+
+| Toolkit | Type | Use Stage | What it does | How to use it | Who should use it | Link |
+| --- | --- | --- | --- | --- | --- | --- |
+| Guided Labeling Assistant | Browser-based web tool; outputs PDF, CSV & JSON | Decide | 6-step decision tree for defining Purview sensitivity labels with Secure by Default set and HIPAA/PCI-DSS/GDPR overlays. Runs locally. | Open in browser → walk decision tree with customer → export PDF/CSV → hand off to deployment. | SMB owners, IT decision-makers, partner consultants scoping a labeling effort | [Launch](https://aka.ms/MIP-Labeling-Assistant) |
+| PowerShell Deployment Script | GitHub repo (open-source PowerShell script) | Deploy | Automation that turns a label plan (CSV) into a configured tenant. Secure by Default label set; validated by Purview product team. Repeatable across tenants. | Pull latest from GitHub → run with `-WhatIf` → review changes → apply to tenant. | Partner IT admins and Microsoft consultants deploying Purview labels in customer tenants | [Launch](https://aka.ms/Deploy-Scripts) |
+| Industry One-Pagers (x5) | PDF documents (one per vertical) | Position | DEFEND-aligned guidance for Healthcare, Financial Services, Manufacturing, Consumer Goods, and Professional Services. Includes TAM data, 8-label model, regulatory considerations, and partner checklist. | Use as a vertical-specific opener — walk into the customer with a brief tailored to their industry. | SMB partners positioning MIP to regulated verticals | See downloads below |
+| MIP SOW Generator | Web tool (form-based); outputs customer-ready Word doc | Sell | Generates a Statement of Work in minutes. Covers Foundation to Premium tiers, aligned with PSA SOW templates. Standardizes deliverables across partners. | Fill form with customer scope → generate SOW → tweak pricing → send to customer. | Partner sellers and account managers scoping Purview engagements with SMB customers | [Launch](https://aka.ms/SOW-Generator) |
+| Copilot CLI Quick Guide | PDF document | Enable | Reference guide with setup, prompts, and examples for using GitHub Copilot CLI as an AI assistant on M365/Purview questions. Reusable across workloads. | Keep open during customer calls — answer licensing and compliance questions at AI speed. Try live examples same-day. | All SMB partners — sellers, architects, technical specialists working M365 motions | [Download](/pdf/Quick-Guide-Copilot-CLI-v2.pdf) |
 
 ## Industry one-pagers
 
@@ -79,5 +85,5 @@ Use `-WhatIf` to preview changes without applying them.
 
 ## What's next
 
-- Continue to [Getting Started with DLP](./dlp.md) to layer data loss prevention policies on top of your labels.
-- See the [Data Security overview](./getting-started.md) for the full partner asset catalog.
+- Continue to [Deploy DLP](./dlp.md) to layer data loss prevention policies on top of your labels.
+- See the [Data Security overview](./getting-started.md) for the full partner deployment approach.
