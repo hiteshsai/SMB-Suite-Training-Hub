@@ -82,6 +82,7 @@ const deploymentGuides = [
 const partnerResources = [
   { label: 'Grow your SMB security practice \u2014 SMB Security Partner Hub', url: 'https://microsoftpartners.microsoft.com/Microsoft-Security-Partners/Grow-SMB-Security/' },
   { label: 'Microsoft Multi-tenant Management resource guide', url: 'https://aka.ms/intunemultitenant' },
+  { label: 'Microsoft Purview deployment models (BP, E3, E5)', url: 'https://learn.microsoft.com/en-us/purview/deploymentmodels/' },
 ];
 
 const sourceReferences = [
