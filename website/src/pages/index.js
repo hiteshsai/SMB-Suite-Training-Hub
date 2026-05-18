@@ -89,6 +89,7 @@ const sourceReferences = [
   { label: 'Add Microsoft Defender Suite for Business Premium to your subscription', url: 'https://learn.microsoft.com/microsoft-365/admin/security-and-compliance/add-defender-suite-business-premium?view=o365-worldwide' },
   { label: 'Security, privacy, and compliance in Microsoft 365 Business Premium', url: 'https://learn.microsoft.com/microsoft-365/business-premium/m365bp-security-privacy-compliance?view=o365-worldwide' },
   { label: 'Partner Center: Purview Suite for Business Premium promotion', url: 'https://learn.microsoft.com/partner-center/announcements/2026-april#extended-promotion-on-microsoft-purview-suite-for-microsoft-365-business-premium' },
+  { label: 'Microsoft Purview deployment models (all SKUs: BP, E3, E5)', url: 'https://learn.microsoft.com/en-us/purview/deploymentmodels/' },
 ];
 
 function Hero() {
