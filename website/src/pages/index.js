@@ -158,7 +158,6 @@ function Pillars() {
     <section className={styles.sectionAlt} id="pillars">
       <div className={styles.container}>
         <h2 className={styles.sectionTitle}>Security SMB Tool Kit</h2>
-        <p className={styles.sectionSub}>Start with what&apos;s available &mdash; more content coming soon.</p>
         <div className={styles.pillarGrid}>
           {pillars.map((pillar) => {
             const inner = (
