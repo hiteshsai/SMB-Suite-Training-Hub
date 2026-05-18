@@ -14,6 +14,7 @@ const config = {
   organizationName: 'hiteshsai',
   projectName: 'SMB-Suite-Training-Hub',
   onBrokenLinks: 'throw',
+  onBrokenAnchors: 'ignore',
   headTags: [
     {
       tagName: 'script',
@@ -100,10 +101,21 @@ const config = {
         },
         items: [
           {
+            to: '/',
+            label: 'Home',
+            position: 'left',
+            activeBaseRegex: '^/SMB-Suite-Training-Hub/?$',
+          },
+          {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Security SMB Tool Kit',
+          },
+          {
+            href: 'https://aka.ms/smbsecurityguide',
+            label: 'SMB Security Guide',
+            position: 'right',
           },
         ],
       },
@@ -118,12 +130,12 @@ const config = {
                 to: '/',
               },
               {
-                label: 'Data Security',
+                label: 'Security SMB Tool Kit',
                 to: '/docs/data-security/getting-started',
               },
               {
-                label: 'Partner assets',
-                to: '/docs/data-security/getting-started',
+                label: 'SMB Security Guide',
+                href: 'https://aka.ms/smbsecurityguide',
               },
             ],
           },
@@ -142,6 +154,10 @@ const config = {
                 label: 'Business Premium security and compliance',
                 href: 'https://learn.microsoft.com/microsoft-365/business-premium/m365bp-security-privacy-compliance?view=o365-worldwide',
               },
+              {
+                label: 'SMB Security Partner Hub',
+                href: 'https://microsoftpartners.microsoft.com/Microsoft-Security-Partners/Grow-SMB-Security/',
+              },
             ],
           },
           {
@@ -158,7 +174,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Content scaffold for SMB partner enablement.`,
+        copyright: `Built for Microsoft SMB partners \u2014 \u00A9 ${new Date().getFullYear()}`,
       },
       prism: {
         theme: prismThemes.github,
