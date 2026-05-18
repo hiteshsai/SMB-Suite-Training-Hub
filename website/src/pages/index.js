@@ -101,7 +101,7 @@ function Hero() {
         <p className={styles.heroAudience}>Built for Microsoft CSP partners, managed service providers, and solution integrators selling Microsoft 365 Business Premium security to SMB customers.</p>
         <div className={styles.heroButtons}>
           <Link className={styles.heroPrimary} to="/docs/data-security/getting-started">
-            Start with Data Security
+            Explore Tool Kit
           </Link>
           <Link className={styles.heroSecondary} to="#deployment-guides">
             Browse deployment guides &rarr;
