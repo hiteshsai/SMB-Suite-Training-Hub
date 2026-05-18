@@ -60,6 +60,37 @@ const pillars = [
   },
 ];
 
+const deploymentGuides = [
+  {
+    bundle: 'Business Premium + Defender Suite',
+    guides: [
+      { label: 'Identity Protection Deployment Guide for Small Business', url: 'https://microsoftpartners.microsoft.com/Microsoft-Security-Partners/News-and-Events/?Topic=small+and+medium%E2%80%91sized+business+%28smb%29#resource-catalog' },
+      { label: 'Device Management Deployment Guide for Small Business', url: 'https://microsoftpartners.microsoft.com/Microsoft-Security-Partners/News-and-Events/?Topic=small+and+medium%E2%80%91sized+business+%28smb%29#resource-catalog' },
+      { label: 'Device Security Deployment Guide for Small Business', url: 'https://microsoftpartners.microsoft.com/Microsoft-Security-Partners/News-and-Events/?Topic=small+and+medium%E2%80%91sized+business+%28smb%29#resource-catalog' },
+      { label: 'Email & App + Collaboration Deployment Guide for Small Business', url: 'https://microsoftpartners.microsoft.com/Microsoft-Security-Partners/News-and-Events/?Topic=small+and+medium%E2%80%91sized+business+%28smb%29#resource-catalog' },
+      { label: 'SaaS Security Deployment Guide for Small Business', url: 'https://microsoftpartners.microsoft.com/Microsoft-Security-Partners/News-and-Events/?Topic=small+and+medium%E2%80%91sized+business+%28smb%29#resource-catalog' },
+    ],
+  },
+  {
+    bundle: 'Business Premium + Purview Suite',
+    guides: [
+      { label: 'Data Security Deployment Guide for Small Business', url: 'https://microsoftpartners.microsoft.com/Microsoft-Security-Partners/News-and-Events/?Topic=small+and+medium%E2%80%91sized+business+%28smb%29#resource-catalog' },
+    ],
+  },
+];
+
+const partnerResources = [
+  { label: 'Grow your SMB security practice \u2014 SMB Security Partner Hub', url: 'https://microsoftpartners.microsoft.com/Microsoft-Security-Partners/Grow-SMB-Security/' },
+  { label: 'Microsoft Multi-tenant Management resource guide', url: 'https://aka.ms/intunemultitenant' },
+];
+
+const sourceReferences = [
+  { label: 'Set up information protection in Microsoft 365 Business Premium', url: 'https://learn.microsoft.com/microsoft-365/admin/security-and-compliance/m365bp-information-protection?view=o365-worldwide' },
+  { label: 'Add Microsoft Defender Suite for Business Premium to your subscription', url: 'https://learn.microsoft.com/microsoft-365/admin/security-and-compliance/add-defender-suite-business-premium?view=o365-worldwide' },
+  { label: 'Security, privacy, and compliance in Microsoft 365 Business Premium', url: 'https://learn.microsoft.com/microsoft-365/business-premium/m365bp-security-privacy-compliance?view=o365-worldwide' },
+  { label: 'Partner Center: Purview Suite for Business Premium promotion', url: 'https://learn.microsoft.com/partner-center/announcements/2026-april#extended-promotion-on-microsoft-purview-suite-for-microsoft-365-business-premium' },
+];
+
 function Hero() {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -72,8 +103,8 @@ function Hero() {
           <Link className={styles.heroPrimary} to="/docs/data-security/getting-started">
             Start with Data Security
           </Link>
-          <Link className={styles.heroSecondary} to="/docs/intro">
-            Browse all resources &rarr;
+          <Link className={styles.heroSecondary} to="#deployment-guides">
+            Browse deployment guides &rarr;
           </Link>
         </div>
       </div>
@@ -101,11 +132,29 @@ function ValueProp() {
   );
 }
 
+function SecurityGuideCallout() {
+  return (
+    <section className={styles.section}>
+      <div className={styles.container}>
+        <div className={styles.calloutCard}>
+          <h2 className={styles.calloutTitle}>Start with the SMB Security Guide</h2>
+          <p className={styles.calloutBody}>
+            A guide for securing small and medium business environments with Microsoft 365 and Microsoft Defender. Covers identity, device, email, and data protection in a phased, prioritized approach &mdash; giving partners and IT admins a clear foundation to build on. Start here, then use the SMB Suite training assets to accelerate and scale your deployment.
+          </p>
+          <a className={styles.calloutLink} href="https://aka.ms/smbsecurityguide" target="_blank" rel="noopener noreferrer">
+            aka.ms/smbsecurityguide &rarr;
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function Pillars() {
   return (
     <section className={styles.sectionAlt} id="pillars">
       <div className={styles.container}>
-        <h2 className={styles.sectionTitle}>Security Tool Kit</h2>
+        <h2 className={styles.sectionTitle}>Security SMB Tool Kit</h2>
         <p className={styles.sectionSub}>Deployment content organized by capability. Start with what&apos;s available &mdash; more pillars are on the way.</p>
         <div className={styles.pillarGrid}>
           {pillars.map((pillar) => {
@@ -146,6 +195,62 @@ function Pillars() {
   );
 }
 
+function DeploymentGuides() {
+  return (
+    <section className={styles.section} id="deployment-guides">
+      <div className={styles.container}>
+        <h2 className={styles.sectionTitle}>Step-by-step deployment guides</h2>
+        <p className={styles.sectionSub}>Official partner-built deployment guides for SMB customers, organized by suite bundle.</p>
+        <div className={styles.bundleGrid}>
+          {deploymentGuides.map((bundle) => (
+            <div key={bundle.bundle} className={styles.bundleCard}>
+              <h3>{bundle.bundle}</h3>
+              <ul className={styles.linkList}>
+                {bundle.guides.map((g) => (
+                  <li key={g.label}>
+                    <a href={g.url} target="_blank" rel="noopener noreferrer">{g.label}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function ResourcesAndReferences() {
+  return (
+    <section className={styles.sectionAlt}>
+      <div className={styles.container}>
+        <div className={styles.referencesGrid}>
+          <div>
+            <h2 className={styles.subsectionTitle}>Partner resources</h2>
+            <ul className={styles.linkList}>
+              {partnerResources.map((r) => (
+                <li key={r.label}>
+                  <a href={r.url} target="_blank" rel="noopener noreferrer">{r.label}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h2 className={styles.subsectionTitle}>Source references</h2>
+            <ul className={styles.linkList}>
+              {sourceReferences.map((r) => (
+                <li key={r.label}>
+                  <a href={r.url} target="_blank" rel="noopener noreferrer">{r.label}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -153,7 +258,10 @@ export default function Home() {
       <Hero />
       <main>
         <ValueProp />
+        <SecurityGuideCallout />
         <Pillars />
+        <DeploymentGuides />
+        <ResourcesAndReferences />
       </main>
     </Layout>
   );

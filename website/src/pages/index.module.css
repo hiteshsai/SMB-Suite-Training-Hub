@@ -256,6 +256,97 @@
   font-size: 1.1rem;
 }
 
+/* Callout card (SMB Security Guide) */
+.calloutCard {
+  background: linear-gradient(135deg, rgba(16, 110, 190, 0.08) 0%, rgba(16, 110, 190, 0.02) 100%);
+  border: 1px solid rgba(16, 110, 190, 0.25);
+  border-left: 4px solid #106ebe;
+  border-radius: 10px;
+  padding: 2rem 2.25rem;
+}
+
+.calloutTitle {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.calloutBody {
+  color: var(--ifm-color-emphasis-800);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.calloutLink {
+  display: inline-block;
+  color: #106ebe;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.calloutLink:hover {
+  text-decoration: underline;
+}
+
+/* Deployment guide bundles */
+.bundleGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.bundleCard {
+  padding: 1.75rem;
+  border-radius: 10px;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  background: var(--ifm-background-color);
+}
+
+.bundleCard h3 {
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+  color: #106ebe;
+}
+
+.linkList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.linkList li {
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--ifm-color-emphasis-100);
+}
+
+.linkList li:last-child {
+  border-bottom: none;
+}
+
+.linkList a {
+  color: var(--ifm-color-emphasis-800);
+  text-decoration: none;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.linkList a:hover {
+  color: #106ebe;
+  text-decoration: underline;
+}
+
+/* References grid (two columns) */
+.referencesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.5rem;
+}
+
+.subsectionTitle {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-heading-color);
+}
+
 @media (max-width: 480px) {
   .hero {
     padding: 3rem 1rem;
@@ -281,8 +372,14 @@
   }
 
   .valuePropGrid,
-  .pillarGrid {
+  .pillarGrid,
+  .bundleGrid,
+  .referencesGrid {
     grid-template-columns: 1fr;
+  }
+
+  .calloutCard {
+    padding: 1.5rem 1.25rem;
   }
 }
 

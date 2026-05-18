@@ -103,7 +103,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Resources',
+            label: 'Security SMB Tool Kit',
           },
         ],
       },
@@ -114,8 +114,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Overview',
-                to: '/docs/intro',
+                label: 'Home',
+                to: '/',
               },
               {
                 label: 'Data Security',
