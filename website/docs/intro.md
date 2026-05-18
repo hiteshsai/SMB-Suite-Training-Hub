@@ -41,7 +41,7 @@ A guide for securing small and medium business environments with Microsoft 365 a
 
 - [Data Security Deployment Guide for Small Business](https://microsoftpartners.microsoft.com/Microsoft-Security-Partners/News-and-Events/?Topic=small+and+medium%E2%80%91sized+business+%28smb%29#resource-catalog)
 
-## Security pillars
+## Security Tool Kit
 
 Deployment content is organized into five security-capability pillars. Start with what's available:
 

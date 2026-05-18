@@ -105,7 +105,7 @@ function Pillars() {
   return (
     <section className={styles.sectionAlt} id="pillars">
       <div className={styles.container}>
-        <h2 className={styles.sectionTitle}>Security pillars</h2>
+        <h2 className={styles.sectionTitle}>Security Tool Kit</h2>
         <p className={styles.sectionSub}>Deployment content organized by capability. Start with what&apos;s available &mdash; more pillars are on the way.</p>
         <div className={styles.pillarGrid}>
           {pillars.map((pillar) => {
