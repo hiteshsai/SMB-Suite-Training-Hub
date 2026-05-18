@@ -203,7 +203,7 @@ function DeploymentGuides() {
     <section className={styles.section} id="deployment-guides">
       <div className={styles.container}>
         <h2 className={styles.sectionTitle}>Step-by-step deployment guides</h2>
-        <p className={styles.sectionSub}>Official partner-built deployment guides for SMB customers, organized by suite bundle.</p>
+        <p className={styles.sectionSub}>Prescriptive deployment guides for SMB customers.</p>
         <div className={styles.bundleGrid}>
           {deploymentGuides.map((bundle) => (
             <div key={bundle.bundle} className={styles.bundleCard}>

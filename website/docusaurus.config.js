@@ -6,7 +6,7 @@ const siteBaseUrl = '/SMB-Suite-Training-Hub/';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Microsoft SMB Suite',
+  title: 'Microsoft SMB Suite Training Hub',
   tagline: 'The deployment toolkit for Microsoft SMB partners. Go from customer conversation to configured tenant \u2014 with interactive tools, automation scripts, and ready-to-use assets.',
   url: 'https://hiteshsai.github.io',
   baseUrl: siteBaseUrl,
