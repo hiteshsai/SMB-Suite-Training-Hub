@@ -4,21 +4,21 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 
-const valueProps = [
+const insideItems = [
   {
-    icon: '\uD83D\uDCCA',
-    title: 'Not another pitch deck hub',
-    description: 'The partner portal has market data and GTM slides. This site picks up where that stops \u2014 with tools that actually configure customer tenants.',
+    icon: '\uD83D\uDCD8',
+    title: 'Prescriptive deployment playbooks',
+    description: 'Step-by-step guides built on Microsoft\u2019s best practice recommendations, telling you what to deploy first and why.',
   },
   {
     icon: '\uD83D\uDEE0\uFE0F',
-    title: 'Tools that do the work',
-    description: 'Generate a Statement of Work, design a label taxonomy, and deploy policies with a PowerShell script \u2014 all from one place.',
+    title: 'Interactive partner tools',
+    description: 'SOW generators, labeling assistants, and PowerShell automation to speed up customer engagements.',
   },
   {
-    icon: '\uD83D\uDCC4',
-    title: 'Assets you can hand to customers',
-    description: 'Industry one-pagers, deployment guides, and security checklists ready to share \u2014 no reformatting required.',
+    icon: '\uD83E\uDDE9',
+    title: 'Pillar-based organization',
+    description: 'Content organized by the security problem you\u2019re solving (protect data, secure identity, defend endpoints), not by SKU.',
   },
 ];
 
@@ -112,18 +112,21 @@ function Hero() {
   );
 }
 
-function ValueProp() {
+function WhatYoullFind() {
   return (
     <section className={styles.section}>
       <div className={styles.container}>
-        <h2 className={styles.sectionTitle}>What is this site?</h2>
-        <p className={styles.sectionSub}>A hands-on deployment toolkit for Microsoft partners. The <a href="https://microsoftpartners.microsoft.com/Microsoft-Security-Partners/Grow-SMB-Security/" target="_blank" rel="noopener noreferrer">partner portal</a> helps you understand the opportunity &mdash; this site helps you execute it.</p>
+        <h2 className={styles.sectionTitle}>What you&rsquo;ll find here</h2>
+        <p className={styles.sectionSub}>
+          This hub brings together the tools, playbooks, and customer-ready materials partners need to accelerate SMB security deployments. We are actively building new assets and will continue to add to this hub as content is ready for partner consumption.
+        </p>
+        <h3 className={styles.subsectionTitleCentered}>What&rsquo;s inside</h3>
         <div className={styles.valuePropGrid}>
-          {valueProps.map((vp) => (
-            <div key={vp.title} className={styles.valuePropCard}>
-              <span className={styles.valuePropIcon}>{vp.icon}</span>
-              <h3>{vp.title}</h3>
-              <p>{vp.description}</p>
+          {insideItems.map((item) => (
+            <div key={item.title} className={styles.valuePropCard}>
+              <span className={styles.valuePropIcon}>{item.icon}</span>
+              <h3>{item.title}</h3>
+              <p>{item.description}</p>
             </div>
           ))}
         </div>
@@ -257,7 +260,7 @@ export default function Home() {
     <Layout title={siteConfig.title} description={siteConfig.tagline}>
       <Hero />
       <main>
-        <ValueProp />
+        <WhatYoullFind />
         <SecurityGuideCallout />
         <Pillars />
         <DeploymentGuides />

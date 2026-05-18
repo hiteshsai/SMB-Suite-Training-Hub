@@ -347,6 +347,13 @@
   color: var(--ifm-heading-color);
 }
 
+.subsectionTitleCentered {
+  text-align: center;
+  font-size: 1.35rem;
+  margin: 1rem 0 2rem;
+  color: var(--ifm-heading-color);
+}
+
 @media (max-width: 480px) {
   .hero {
     padding: 3rem 1rem;
