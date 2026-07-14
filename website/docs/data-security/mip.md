@@ -17,11 +17,11 @@ Use the toolkit assets in this section to design, configure, and deploy a labeli
 
 | Toolkit | Type | Use Stage | What it does | How to use it | Who should use it | Link |
 | --- | --- | --- | --- | --- | --- | --- |
-| Guided Labeling Assistant | Browser-based web tool; outputs PDF, CSV & JSON | Decide | 6-step decision tree for defining Purview sensitivity labels with Secure by Default set and HIPAA/PCI-DSS/GDPR overlays. Runs locally. | Open in browser → walk decision tree with customer → export PDF/CSV → hand off to deployment. | SMB owners, IT decision-makers, partner consultants scoping a labeling effort | [Launch](https://aka.ms/MIP-Labeling-Assistant) |
+| Data Security Assistant | Browser-based web tool; outputs PDF, CSV & JSON | Decide | 6-step decision tree for defining Purview sensitivity labels with Secure by Default set and HIPAA/PCI-DSS/GDPR overlays. Runs locally. | Open in browser → walk decision tree with customer → export PDF/CSV → hand off to deployment. | SMB owners, IT decision-makers, partner consultants scoping a labeling effort | [Launch](https://aka.ms/DataSecurityAssistant) |
 | PowerShell Deployment Script | GitHub repo (open-source PowerShell script) | Deploy | Automation that turns a label plan (CSV) into a configured tenant. Secure by Default label set; validated by Purview product team. Repeatable across tenants. | Pull latest from GitHub → run with `-WhatIf` → review changes → apply to tenant. | Partner IT admins and Microsoft consultants deploying Purview labels in customer tenants | [Launch](https://aka.ms/Deploy-Scripts) |
-| Industry One-Pagers (x5) | PDF documents (one per vertical) | Position | DEFEND-aligned guidance for Healthcare, Financial Services, Manufacturing, Consumer Goods, and Professional Services. Includes TAM data, 8-label model, regulatory considerations, and partner checklist. | Use as a vertical-specific opener — walk into the customer with a brief tailored to their industry. | SMB partners positioning MIP to regulated verticals | See downloads below |
+| Industry One-Pagers (x5) | PDF documents (one per vertical) | Position | DEFEND-aligned guidance for Healthcare, Financial Services, Manufacturing, Consumer Goods, and Professional Services. Includes TAM data, 8-label model, regulatory considerations, and partner checklist. | Use as a vertical-specific opener — walk into the customer with a brief tailored to their industry. | SMB partners positioning MIP to regulated verticals | [Launch](https://aka.ms/MIP-Industry-OnePagers) |
 | MIP SOW Generator | Web tool (form-based); outputs customer-ready Word doc | Sell | Generates a Statement of Work in minutes. Covers Foundation to Premium tiers, aligned with PSA SOW templates. Standardizes deliverables across partners. | Fill form with customer scope → generate SOW → tweak pricing → send to customer. | Partner sellers and account managers scoping Purview engagements with SMB customers | [Launch](https://aka.ms/SOW-Generator) |
-| Copilot CLI Quick Guide | PDF document | Enable | Reference guide with setup, prompts, and examples for using GitHub Copilot CLI as an AI assistant on M365/Purview questions. Reusable across workloads. | Keep open during customer calls — answer licensing and compliance questions at AI speed. Try live examples same-day. | All SMB partners — sellers, architects, technical specialists working M365 motions | [Download](/pdf/Quick-Guide-Copilot-CLI-v2.pdf) |
+| Copilot CLI Quick Guide | PDF document | Enable | Reference guide with setup, prompts, and examples for using GitHub Copilot CLI as an AI assistant on M365/Purview questions. Reusable across workloads. | Keep open during customer calls — answer licensing and compliance questions at AI speed. Try live examples same-day. | All SMB partners — sellers, architects, technical specialists working M365 motions | [Download](https://aka.ms/Github-CopilotCli-Guide) |
 
 ## Industry one-pagers
 
@@ -43,7 +43,7 @@ Download the one-pager for your customer's vertical to frame the data protection
 
 ### Step 2 — Design the labels
 
-Use the [Guided Labeling Assistant](https://aka.ms/MIP-Labeling-Assistant) to build a sensitivity label taxonomy tailored to the customer's industry and data types. The assistant walks through:
+Use the [Data Security Assistant](https://aka.ms/DataSecurityAssistant) to build a sensitivity label taxonomy tailored to the customer's industry and data types. The assistant walks through:
 
 - Industry selection and data type identification
 - Label-by-label decision flow
